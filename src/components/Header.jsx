@@ -95,7 +95,7 @@ function Header() {
 
           </div>
 
-          <div className={` absolute  z-30 top-[62px] w-full  flex flex-col justify-center items-start  p-4  text-white bg-gradient-to-r from-primary to-secondary text-xl  divide-y divide-slate-400    md:hidden ${showBurgerMenu && `hidden`} 
+          <div className={` absolute  z-30 top-[62px] w-full  flex flex-col justify-center items-start  p-4  text-white bg-gradient-to-r from-secondary to-primary text-xl  divide-y divide-slate-400    md:hidden ${showBurgerMenu && `hidden`} 
     animate__animated animate__faster animate__fadeInRight
     `}>
             <Link
