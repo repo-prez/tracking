@@ -6,7 +6,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Playfair Display', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+        mono: ['Playfair Display', 'monospace'],
+      },
       colors: {
+        background: '#CCECFF',
+
+        primary: '#02a8ab',
+        secondary: '#056061',
+
         bannerColor: '#056061',
         bannerColor2: '#02a8ab',
         //colunmas
@@ -26,7 +36,7 @@ export default {
 
       },
     },
-    
+
     screens: {
       'sm': '320px',
       // => @media (min-width: 640px) { ... }
@@ -39,10 +49,10 @@ export default {
 
       'xl': '1640px',
       // => @media (min-width: 1280px) { ... }
-      
+
     },
   },
   plugins: [],
-  
-    
+
+
 }
