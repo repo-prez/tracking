@@ -2,6 +2,7 @@ import { AppProvider } from "./context/AppContext"
 import { Routes, Route } from 'react-router-dom'
 import HomePage from "./pages/home/HomePage"
 import ResultadosPage from "./pages/resultados/ResultadosPage"
+import Ui from "./pages/resultados/Ui"
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <AppProvider>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/estudio-opinion" element={<ResultadosPage />} />
+        <Route path="/estudio-opinion" element={<Ui />} />
       </Routes>
     </AppProvider>
   )
