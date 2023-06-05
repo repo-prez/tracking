@@ -3,6 +3,12 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "transform: (content) => content.replace(/taos:/g, '')"
+  ],
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
   ],
   theme: {
     extend: {
@@ -39,17 +45,9 @@ export default {
 
     screens: {
       'sm': '320px',
-      // => @media (min-width: 640px) { ... }
-
       'md': '768px',
-      // => @media (min-width: 1024px) { ... }
-
       'lg': '1024px',
-      // => @media (min-width: 1280px) { ... }
-
       'xl': '1640px',
-      // => @media (min-width: 1280px) { ... }
-
     },
   },
   plugins: [],

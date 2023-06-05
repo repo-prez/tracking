@@ -51,7 +51,7 @@ function Header() {
                   onMouseEnter={(e) => handleShowMenu(e)}
                   onMouseLeave={() => handleHideMenu()}
                 >
-                  <p className='rounded-xl cursor-pointer px-3 py-1 text-black  hover:bg-green-300/100 ease-in-out duration-500'>Inicio </p>
+                  <p className='rounded-xl cursor-pointer px-3 py-1 text-black  hover:bg-primary hover:text-white ease-in-out duration-100'>Inicio </p>
                 </Link>
               </div>
 
@@ -61,7 +61,7 @@ function Header() {
                   onMouseEnter={(e) => handleShowMenu(e)}
                   onMouseLeave={() => handleHideMenu()}
                 >
-                  <p className='rounded-xl cursor-pointer px-3 py-1 text-black  hover:bg-green-300/100 ease-in-out duration-500'>Estudio de opinión </p>
+                  <p className='rounded-xl cursor-pointer px-3 py-1 text-black  hover:bg-primary hover:text-white ease-in-out duration-100'>Estudio de opinión </p>
                 </Link>
               </div>
 
