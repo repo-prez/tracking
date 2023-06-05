@@ -37,7 +37,11 @@ function Header() {
 
 
           <div className=' relative justify-end items-center md:flex '>
-            <img className=' w-[150px]  h-auto absolute left-0' src={logo} alt="icon speedy" />
+
+
+            <Link className=' h-auto absolute left-0' to='/'>
+              <img className=' w-[150px] ' src={logo} alt="icon speedy" />
+            </Link>
 
             <div className="flex  h-14 md:justify-end lg:justify-center  invisible md:visible md:ml-16">
 
