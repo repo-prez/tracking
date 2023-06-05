@@ -4,7 +4,11 @@ import Header from '../../components/Header'
 import banner from '../../assets/home/banner.webp'
 import discurso from '../../assets/home/discurso1.webp'
 import voto from '../../assets/home/voto.webp'
-import churchBg from '../../assets/home/churchBg.webp'
+
+import voteBox from '../../assets/home/voteBox.webp'
+
+
+
 import consultoria from '../../assets/home/consultoria.webp'
 import estudioDeMercado from '../../assets/home/estudioDeMercado.webp'
 import estrategiaPolitica from '../../assets/home/estrategiaPolitica.webp'
@@ -13,7 +17,6 @@ import rightArrow from '../../assets/icons/rightArrow.svg'
 
 
 
-import videoEcuador from '../../assets/home/videoEcuador.mp4'
 import Footer from '../../components/Footer'
 
 
@@ -27,8 +30,8 @@ const HomePage = () => {
 
 
         <section className=' bg-gradient-to-tr from-background to-white md:flex flex-row-reverse md:h-[40rem] lg:[50rem]'>
-          <div className='flex justify-center md:w-1/2 lg:w-1/4 mx-20'>
-            <img className='w-full  object-cover' src={churchBg} alt="" />
+          <div className='flex justify-center '>
+            <img className='w-full mx-20  object-cover' src={voteBox} alt="" />
           </div>
           <div className='flex flex-col items-center md:justify-center lg:items-start px-8 py-4 lg:w-1/2'>
             <h1 className='text-3xl md:text-5xl font-bold pb-4'>Consulta de opinión</h1>
