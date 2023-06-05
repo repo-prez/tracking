@@ -1909,6 +1909,11 @@ react-router@6.11.2:
   dependencies:
     "@remix-run/router" "1.6.2"
 
+react-scroll-motion@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-motion/-/react-scroll-motion-0.3.2.tgz#78213b0ca454352b7fa86dfcd9b6189466fed76d"
+  integrity sha512-w/6btLiY4I1wh1hxRhVKN0Vd3Hrpb+ZfSBZxxMh+mMtc9oXeR+VvfLfx2VRTNl+0JyjTCciwFxtDTK6vg09Mhw==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

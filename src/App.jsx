@@ -11,7 +11,7 @@ function App() {
     <AppProvider>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/estudio-opinion" element={<Ui />} />
+        <Route path="/estudio-opinion" element={<ResultadosPage />} />
       </Routes>
     </AppProvider>
   )
