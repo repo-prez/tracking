@@ -109,18 +109,18 @@ const ResultadosPage2 = () => {
         </section>
 
 
-        {/* Barras */}
 
+        {/* Barras 1 */}
 
-        <div className='lg:flex lg:w-10/12 xl:w-8/12'>
+        <div className='lg:flex lg:w-10/12 xl:w-8/12 divide-x-2'>
 
-          <section className='w-full flex flex-col items-center justify-center my-20 '>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:px-6'>
             <h3 className='text-2xl'>Valoración del Gobierno</h3>
             <img src={Barras1} alt="image" />
             <p className='border-t-[1px] border-b-[1px]'>Disminuye a <span className='font-bold'>15%</span> la aceptación del Gobierno actual. </p>
           </section>
 
-          <section className='w-full flex flex-col items-center justify-center my-20 '>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:px-6'>
             <h3 className='text-2xl'>Valoración del Presidente Guillermo Lasso</h3>
             <img src={Barras2} alt="image" />
             <p className='border-t-[1px] border-b-[1px]'>La aprobación de Guillermo Lasso disminuye a <span className='font-bold'>14%.</span> </p>
@@ -132,19 +132,17 @@ const ResultadosPage2 = () => {
 
 
 
-        {/* Pastel */}
+        {/* Barras Pastel */}
 
+        <div className='lg:flex items-start lg:w-10/12 xl:w-8/12 divide-x-2' >
 
-
-        <div className='lg:flex items-start lg:w-10/12 xl:w-8/12' >
-
-          <section className='w-full flex flex-col items-center justify-center my-20 '>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:px-6'>
             <h3 className='text-2xl'>Valoración de la Asamblea Nacional</h3>
             <img src={Barras3} alt="image" />
             <p className='border-t-[1px] border-b-[1px]'>La aceptación de la Asamblea Nacional es del <span className='font-bold'>15%</span> de la población. </p>
           </section>
 
-          <section className='w-full flex flex-col items-center justify-center my-20 '>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:px-6'>
             <h3 className='text-2xl' >Usted quisiera que el Presidente Lasso:</h3>
             <img className='lg:w-8/12' src={Pastel1} alt="" />
           </section>
@@ -152,21 +150,25 @@ const ResultadosPage2 = () => {
         </div>
 
 
-        <div className='lg:flex items-start lg:w-10/12 xl:w-8/12'>
+        {/* Pastel BarrasH */}
 
-          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6'>
+        <div className='lg:flex items-start lg:w-10/12 xl:w-8/12 divide-x-2'>
+
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6 lg:px-6'>
             <h3 className='text-2xl' >En caso de que llamen a elecciones,
               ¿Qué prefiere?</h3>
             <img src={Pastel2} alt="" />
           </section>
 
-          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6'>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6 lg:px-6'>
             <h3 className='text-2xl mb-6' >¿Quién es la mejor opción para enfrentarse al correismo en las próximas elecciones?</h3>
             <img src={BarrasH1} alt="image" />
           </section>
 
         </div>
 
+
+        {/* Seccion 2 */}
 
         <section className='flex flex-col md:flex-row justify-center items-center lg:w-10/12 xl:w-8/12'>
           <h1 className='md:w-1/2 lg:text-end'>
@@ -179,22 +181,26 @@ const ResultadosPage2 = () => {
         </section>
 
 
-        <div className='lg:flex lg:w-10/12 xl:w-8/12' >
+        {/* Barras - Pastel */}
 
-          <section className='w-full flex flex-col items-center justify-center my-20 '>
+        <div className='lg:flex lg:w-10/12 xl:w-8/12 divide-x-2'>
+
+          <section className='w-full flex flex-col items-center justify-center my-20 px-6'>
             <h3 className='text-2xl'>La situación económica del país es:</h3>
             <img src={Barras4} alt="image" />
             <p className='border-t-[1px] border-b-[1px]'>Se mantiene por debajo del <span className='font-bold'>15%</span> la percepción positiva sobre la situación económica del país. </p>
           </section>
 
 
-          <section className='w-full flex flex-col items-center justify-center my-20 '>
+          <section className='w-full flex flex-col items-center justify-center my-20 px-6'>
             <h3 className='text-2xl'>En el último año, ¿usted o algún familiar o amigo ha sufrido algún robo en su hogar o domicilio? </h3>
             <img src={PieSolo1} alt="image" />
             <p className='border-t-[1px] border-b-[1px]'>En el último año, <span className='font-bold'>4 de cada 10 ecuatorianos</span> han sufrido algún robo en su hogar. </p>
           </section>
 
         </div>
+
+        {/* Sección 3 */}
 
         <section className='flex flex-col justify-center md:flex-row items-center lg:w-10/12 xl:w-8/12 '>
           <h1 className='md:w-1/2 my-2' >
@@ -206,17 +212,18 @@ const ResultadosPage2 = () => {
           <img className=' md:w-1/2 bg-cyan-300 rounded-xl' src={titulo4} alt="" />
         </section>
 
+        {/* BarrasH - BarrasH */}
 
-        <div className='lg:flex items-start lg:w-10/12 xl:w-8/12'>
+        <div className='lg:flex items-start lg:w-10/12 xl:w-8/12 divide-x-2'>
 
-          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6'>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6 px-4'>
             <h3 className='text-2xl'>Conocimiento sobre los siguientes partidos políticos:  </h3>
             <p>SÍ CONOCE</p>
             <img src={BarrasH2} alt="image" />
           </section>
 
 
-          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6'>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:mx-6 px-4'>
             <h3 className='text-2xl mb-6' >¿Quién es la mejor opción para enfrentarse al correismo en las próximas elecciones?</h3>
             <img src={BarrasH1} alt="image" />
           </section>
@@ -228,13 +235,13 @@ const ResultadosPage2 = () => {
         <div className='lg:w-10/12 xl:w-8/12 lg:my-10'>
           <h2 className='text-2xl text-center '>Si es que las votaciones fueran en este momento, por qué candidato votaría?</h2>
 
-          <div className='lg:flex'>
-            <section className='w-full flex flex-col items-center justify-center mb-20 lg:px-5 lg:my-10 lg:mx-6'>
+          <div className='lg:flex divide-x-2'>
+            <section className='w-full flex flex-col items-center justify-center mb-20 lg:my-10 lg:px-6'>
               <h3 className='text-lg lg:mb-4' >Otto Sonnenholzner</h3>
               <img src={Candidato1} alt="" />
             </section>
 
-            <section className='w-full flex flex-col items-center justify-center mb-20 lg:px-5 lg:my-10 lg:mx-6'>
+            <section className='w-full flex flex-col items-center justify-center mb-20 lg:my-10 lg:px-6'>
               <h3 className='text-lg lg:mb-4' >Xavier Hervas</h3>
               <img src={Candidato2} alt="" />
             </section>
@@ -245,13 +252,13 @@ const ResultadosPage2 = () => {
         <div className='lg:w-10/12 xl:w-8/12 lg:my-10'>
           <h2 className='text-2xl text-center'>Si es que las votaciones fueran en este momento, por qué candidato votaría?</h2>
 
-          <div className='lg:flex'>
-            <section className='w-full flex flex-col items-center justify-center mb-20 lg:px-5 lg:my-10 lg:mx-6'>
+          <div className='lg:flex divide-x-2'>
+            <section className='w-full flex flex-col items-center justify-center mb-20 lg:my-10 lg:px-6'>
               <h3 className='text-lg lg:mb-4' >Pedro Freile</h3>
               <img src={Candidato3} alt="" />
             </section>
 
-            <section className='w-full flex flex-col items-center justify-center mb-20 lg:px-5 lg:my-10 lg:mx-6'>
+            <section className='w-full flex flex-col items-center justify-center mb-20 lg:my-10 lg:px-6'>
               <h3 className='text-lg lg:mb-4' >Candidato de Correa</h3>
               <img src={Candidato4} alt="" />
             </section>
@@ -259,15 +266,15 @@ const ResultadosPage2 = () => {
         </div>
 
 
-        <div className='lg:flex lg:w-10/12 xl:w-8/12'>
-          <section className='w-full flex flex-col items-center justify-center my-20 lg:w-10/12 xl:w-8/12 lg:mx-6'>
+        <div className='lg:flex lg:w-10/12 xl:w-8/12 divide-x-2'>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:w-10/12 xl:w-8/12 lg:px-6'>
             <h3 className='text-2xl mb-2'>Si es que las elecciones fueran en este momento, de los siguientes candidatos, ¿por quién votaría? </h3>
             <p className='my-2'>ESCENARIO 1</p>
             <img src={BarrasHFinal1} alt="image" />
           </section>
 
 
-          <section className='w-full flex flex-col items-center justify-center my-20 lg:w-10/12 xl:w-8/12 lg:mx-6'>
+          <section className='w-full flex flex-col items-center justify-center my-20 lg:w-10/12 xl:w-8/12 lg:px-6'>
             <h3 className='text-2xl mb-2'>Si es que las elecciones fueran en este momento, de los siguientes candidatos, ¿por quién votaría? </h3>
             <p className='my-2'>ESCENARIO 2</p>
             <img src={BarrasHFinal2} alt="image" />

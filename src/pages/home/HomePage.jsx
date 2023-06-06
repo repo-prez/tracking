@@ -7,6 +7,8 @@ import voto from '../../assets/home/voto.webp'
 
 import voteBox from '../../assets/home/voteBox.webp'
 
+import bannerPresidentes from '../../assets/home/bannerPresidentes.webp'
+
 
 
 import consultoria from '../../assets/home/consultoria.webp'
@@ -31,7 +33,7 @@ const HomePage = () => {
 
         <section className=' bg-gradient-to-tr from-background to-white md:flex flex-row-reverse md:h-[40rem] lg:[50rem]'>
           <div className='flex justify-center '>
-            <img className='w-full mx-20  object-cover' src={voteBox} alt="" />
+            <img className='w-full mx-20  object-cover' src={bannerPresidentes} alt="" />
           </div>
           <div className='flex flex-col items-center md:justify-center lg:items-start px-8 py-4 lg:w-1/2'>
             <h1 className='text-3xl md:text-5xl font-bold pb-4'>Consulta de opinión</h1>
